@@ -185,3 +185,19 @@ ul {
   color: var(--active-color-text);
   letter-spacing: 0.03em;
 }
+.header-of-main-page {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 80px;
+}
+.list-of-main-navi {
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
+  margin-right: 371px;
+}
+.list-of-header-contact {
+  display: flex;
+  gap: 50px;
+}
