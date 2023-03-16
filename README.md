@@ -1,3 +1,3 @@
-# goit-markup-hw-02
-Kurs programowania goIT zadanie 02
-https://krystianklimczak.github.io/goit-markup-hw-02/
+# goit-markup-hw-023
+Kurs programowania goIT zadanie 03
+https://krystianklimczak.github.io/goit-markup-hw-03/
