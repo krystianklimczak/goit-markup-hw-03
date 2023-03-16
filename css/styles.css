@@ -4,16 +4,17 @@
   --contact-color: #757575;
   --filter-background-color: #f5f4fa;
   --main-text-color: #212121;
-  --background-color-of-crew: #F5F4FA;
-  --background-color-of-footer: #2F303A;
+  --background-color-of-crew: #f5f4fa;
+  --background-color-of-footer: #2f303a;
   --color-of-contact-footer: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
-
 }
-
+ul {
+  list-style: none;
+}
 
 .filter-portfolio {
   border-style: none;
@@ -42,7 +43,6 @@ body {
   line-height: 100%;
   color: var(--main-text-color);
   letter-spacing: 0.02em;
-
 }
 
 .nav-buttons:hover,
@@ -103,7 +103,6 @@ body {
   font-size: 18px;
   line-height: 171%;
   letter-spacing: 0.06em;
-
 }
 .kind-of-project {
   font-size: 16px;
@@ -138,36 +137,36 @@ body {
   letter-spacing: 0.03em;
 }
 .lorem-ipsum-paragraph {
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
 }
 .header-of-section {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
 }
-.header-of-coworker{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 119%;
-    letter-spacing: 0.03em;
+.header-of-coworker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 119%;
+  letter-spacing: 0.03em;
 }
 .position-of-coworker {
-    font-size: 16px;
-    line-height: 119%;
-    color: var(--contact-color);
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 119%;
+  color: var(--contact-color);
+  letter-spacing: 0.03em;
 }
 .main-board {
-    background-color: var(--background-color-of-footer);
+  background-color: var(--background-color-of-footer);
 }
 .section-our-squad {
-    background-color: var(--background-color-of-crew);
+  background-color: var(--background-color-of-crew);
 }
 .page-footer {
-    background-color: var(--background-color-of-footer);
+  background-color: var(--background-color-of-footer);
 }
 .page-logo-footer {
   font-family: 'Raleway';
