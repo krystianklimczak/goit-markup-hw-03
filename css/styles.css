@@ -73,9 +73,15 @@ ul {
 
 .footer-contact {
   color: var(--color-of-contact-footer);
-  line-height: 146%;
-  text-decoration: none;
-  letter-spacing: 0.03em;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+text-decoration: none;
 }
 
 .footer-contact:hover,
@@ -97,12 +103,16 @@ ul {
   color: var(--active-color);
 }
 .address-street {
-  font-size: 14px;
-  font-style: normal;
-  line-height: 146%;
-  text-decoration: none;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
   color: var(--active-color-text);
-  letter-spacing: 0.03em;
+  
 }
 
 .name-of-project {
@@ -123,6 +133,17 @@ ul {
   line-height: 116%;
   letter-spacing: 0.06em;
   color: var(--active-color-text);
+  width: 696px;
+  text-align: center;
+  padding-top: 213px;
+}
+.main-board {
+  background-color: var(--background-color-of-footer);
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .order-button {
   background: #2196f3;
@@ -136,6 +157,19 @@ ul {
   font-weight: 700;
   cursor: pointer;
   letter-spacing: 0.06em;
+  margin-top: 30px;
+  margin-bottom: 187px;
+}
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 107px;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+.advantages-item {
+  width: 270px;
 }
 .lorem-ipsum {
   font-weight: 700;
@@ -144,36 +178,79 @@ ul {
   letter-spacing: 0.03em;
 }
 .lorem-ipsum-paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 24px;
+  /* or 171% */
+
   letter-spacing: 0.03em;
+
+  color: var(--contact-color);
 }
 .header-of-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 117%;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container-of-our-job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+.our-squad-title {
+  padding-top: 94px;
+}
+img {
+  display: block;
 }
 .header-of-coworker {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 119%;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
   letter-spacing: 0.03em;
+
+  background-color: var(--active-color-text);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.container-of-our-worker {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .position-of-coworker {
   font-size: 16px;
   line-height: 119%;
   color: var(--contact-color);
   letter-spacing: 0.03em;
-}
-.main-board {
-  background-color: var(--background-color-of-footer);
+  background-color: var(--active-color-text);
+  text-align: center;
+  padding-bottom: 30px;
 }
 .section-our-squad {
   background-color: var(--background-color-of-crew);
 }
 .page-footer {
   background-color: var(--background-color-of-footer);
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 15px;
 }
 .page-logo-footer {
   font-family: 'Raleway';
@@ -190,6 +267,13 @@ ul {
   /* justify-content: space-between; */
   align-items: center;
   height: 80px;
+}
+.page-footer-address {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .list-of-main-navi {
   display: flex;
