@@ -6,20 +6,20 @@
 /* BODY STYLE */
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
 }
 /* ROOTED COLOURS */
 :root {
-  --brand-text-color: #212121;
-  --brand-black-color: rgb(0, 0, 0);
-  --brand-hover-color: #2196f3;
-  --brand-white-color: #ffffff;
-  --brand-grey-color: #757575;
-  --brand-grey-color-opacity: rgba(255, 255, 255, 0.6);
-  --brand-background-color-squad: #f5f4fa;
-  --brand-background-color-solution: #2f303a;
-  --brand-header-line: rgba(236, 236, 236, 1);
-  --brand-border-color: #eeeeee;
+  --color-text-main: #212121;
+  --color-text-black: rgb(0, 0, 0);
+  --color-hover: #2196f3;
+  --color-text-white: #ffffff;
+  --color-text-grey: #757575;
+  --color-text-grey-opacity: rgba(255, 255, 255, 0.6);
+  --color-background-squad: #f5f4fa;
+  --color-background-solution: #2f303a;
+  --color-header-line: rgba(236, 236, 236, 1);
+  --color-border-line: #eeeeee;
 }
 /* LINK GLOBAL STYLE */
 a {
@@ -51,11 +51,11 @@ img {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: var(--brand-hover-color);
+  color: var(--color-hover);
   margin-right: 93px;
 }
 .header_logo_span {
-  color: var(--brand-black-color);
+  color: var(--color-text-black);
 }
 .header_container {
   display: flex;
@@ -74,10 +74,10 @@ img {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
 }
 .navigation_link:is(:hover, :focus) {
-  color: var(--brand-hover-color);
+  color: var(--color-hover);
 }
 .header_contact {
   display: flex;
@@ -90,16 +90,16 @@ img {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--brand-grey-color);
+  color: var(--color-text-grey);
 }
 .header_contact_link:is(:hover, :focus) {
-  color: var(--brand-hover-color);
+  color: var(--color-hover);
 }
 header {
-  border-bottom: 1px solid var(--brand-header-line);
+  border-bottom: 1px solid var(--color-header-line);
 }
 .solution {
-  background-color: var(--brand-background-color-solution);
+  background-color: var(--color-background-solution);
 }
 .solution_container {
   display: flex;
@@ -108,7 +108,7 @@ header {
   gap: 30px;
 }
 .solution_title {
-  color: var(--brand-white-color);
+  color: var(--color-text-white);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -123,8 +123,8 @@ header {
   width: 696px;
 }
 .solution_button {
-  background-color: var(--brand-hover-color);
-  color: var(--brand-white-color);
+  background-color: var(--color-hover);
+  color: var(--color-text-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -160,7 +160,7 @@ header {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
   margin-bottom: 10px;
 }
 .advatages_describtion {
@@ -172,7 +172,7 @@ header {
   /* or 171% */
 
   letter-spacing: 0.03em;
-  color: var(--brand-grey-color);
+  color: var(--color-text-grey);
 }
 .our_job_title {
   font-family: 'Roboto';
@@ -182,7 +182,7 @@ header {
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
   margin-bottom: 50px;
 }
 .our_job_list {
@@ -192,7 +192,7 @@ header {
   padding-bottom: 94px;
 }
 .our_squad {
-  background-color: var(--brand-background-color-squad);
+  background-color: var(--color-background-squad);
 }
 .our_squad_title {
   font-family: 'Roboto';
@@ -202,7 +202,7 @@ header {
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
   padding-top: 94px;
   margin-bottom: 50px;
 }
@@ -213,7 +213,7 @@ header {
   padding-bottom: 94px;
 }
 .our_squad_item {
-  background-color: var(--brand-white-color);
+  background-color: var(--color-text-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -228,7 +228,7 @@ header {
 
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
   padding-top: 30px;
 }
 .our_squad_rank {
@@ -241,11 +241,11 @@ header {
 
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--brand-grey-color);
+  color: var(--color-text-grey);
   padding-bottom: 30px;
 }
 .footer {
-  background-color: var(--brand-background-color-solution);
+  background-color: var(--color-background-solution);
 }
 .footer-container {
   padding-top: 60px;
@@ -261,10 +261,10 @@ header {
 
   letter-spacing: 0.03em;
 
-  color: var(--brand-hover-color);
+  color: var(--color-hover);
 }
 .footer_logo_span {
-  color: var(--brand-white-color);
+  color: var(--color-text-white);
 }
 .footer_address {
   font-family: 'Roboto';
@@ -276,7 +276,7 @@ header {
 
   letter-spacing: 0.03em;
 
-  color: var(--brand-white-color);
+  color: var(--color-text-white);
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -292,7 +292,7 @@ header {
 
   letter-spacing: 0.03em;
 
-  color: var(--brand-grey-color-opacity);
+  color: var(--color-text-grey-opacity);
 }
 .filter {
   display: flex;
@@ -302,7 +302,7 @@ header {
   margin-bottom: 50px;
 }
 .filter_button {
-  background-color: var(--brand-background-color-squad);
+  background-color: var(--color-background-squad);
   border: none;
   border-radius: 4px;
   font-family: 'Roboto';
@@ -315,17 +315,17 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
   padding: 6px 22px;
 }
 .filter_button:is(:hover, :focus) {
-  background: var(--brand-hover-color);
+  background: var(--color-hover);
   /* shadow-middle */
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: var(--brand-white-color);
+  color: var(--color-text-white);
 }
 .project {
   display: flex;
@@ -336,9 +336,9 @@ header {
   margin-bottom: 94px;
 }
 .project_description {
-  border-right: 1px solid var(--brand-border-color);
-  border-left: 1px solid var(--brand-border-color);
-  border-bottom: 1px solid var(--brand-border-color);
+  border-right: 1px solid var(--color-border-line);
+  border-left: 1px solid var(--color-border-line);
+  border-bottom: 1px solid var(--color-border-line);
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -354,7 +354,7 @@ header {
 
   letter-spacing: 0.06em;
 
-  color: var(--brand-text-color);
+  color: var(--color-text-main);
 }
 .project_kind {
   font-family: 'Roboto';
@@ -366,5 +366,5 @@ header {
 
   letter-spacing: 0.03em;
 
-  color: var(--brand-grey-color);
+  color: var(--color-text-grey);
 }
