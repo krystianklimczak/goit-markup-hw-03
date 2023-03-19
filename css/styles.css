@@ -42,7 +42,7 @@ img {
   margin: 0 auto;
 }
 /* PAGE LOGO */
-.header_logo {
+.header-logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -54,10 +54,10 @@ img {
   color: var(--color-hover);
   margin-right: 93px;
 }
-.header_logo_span {
+.header-logo-span {
   color: var(--color-text-black);
 }
-.header_container {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -67,7 +67,7 @@ img {
   margin-right: 371px;
   padding: 32px 0;
 }
-.navigation_link {
+.navigation-link {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -76,14 +76,14 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-text-main);
 }
-.navigation_link:is(:hover, :focus) {
+.navigation-link:is(:hover, :focus) {
   color: var(--color-hover);
 }
-.header_contact {
+.header-contact {
   display: flex;
   gap: 50px;
 }
-.header_contact_link {
+.header-contact-link {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -92,7 +92,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-text-grey);
 }
-.header_contact_link:is(:hover, :focus) {
+.header-contact-link:is(:hover, :focus) {
   color: var(--color-hover);
 }
 header {
@@ -101,13 +101,13 @@ header {
 .solution {
   background-color: var(--color-background-solution);
 }
-.solution_container {
+.solution-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
-.solution_title {
+.solution-title {
   color: var(--color-text-white);
   font-family: 'Roboto';
   font-style: normal;
@@ -122,7 +122,7 @@ header {
   margin-top: 200px;
   width: 696px;
 }
-.solution_button {
+.solution-button {
   background-color: var(--color-hover);
   color: var(--color-text-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -142,17 +142,17 @@ header {
   padding: 10px 41px 10px 42px;
   margin-bottom: 200px;
 }
-.advantages_list {
+.advantages-list {
   display: flex;
   gap: 30px;
   margin-top: 94px;
   margin-bottom: 94px;
   justify-content: center;
 }
-.advantages_item {
+.advantages-item {
   width: 270px;
 }
-.advantages_title {
+.advantages-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -163,7 +163,7 @@ header {
   color: var(--color-text-main);
   margin-bottom: 10px;
 }
-.advatages_describtion {
+.advatages-describtion {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -174,7 +174,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--color-text-grey);
 }
-.our_job_title {
+.our-job-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -185,16 +185,16 @@ header {
   color: var(--color-text-main);
   margin-bottom: 50px;
 }
-.our_job_list {
+.our-job-list {
   display: flex;
   gap: 30px;
   justify-content: center;
   padding-bottom: 94px;
 }
-.our_squad {
+.our-squad {
   background-color: var(--color-background-squad);
 }
-.our_squad_title {
+.our-squad-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -206,19 +206,19 @@ header {
   padding-top: 94px;
   margin-bottom: 50px;
 }
-.our_squad_list {
+.our-squad-list {
   display: flex;
   gap: 30px;
   justify-content: center;
   padding-bottom: 94px;
 }
-.our_squad_item {
+.our-squad-item {
   background-color: var(--color-text-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.our_squad_name {
+.our-squad-name {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -231,7 +231,7 @@ header {
   color: var(--color-text-main);
   padding-top: 30px;
 }
-.our_squad_rank {
+.our-squad-rank {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -251,7 +251,7 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer_logo {
+.footer-logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -263,10 +263,10 @@ header {
 
   color: var(--color-hover);
 }
-.footer_logo_span {
+.footer-logo-span {
   color: var(--color-text-white);
 }
-.footer_address {
+.footer-address {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -282,7 +282,7 @@ header {
   flex-direction: column;
   gap: 9px;
 }
-.footer_link {
+.footer-link {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -301,7 +301,7 @@ header {
   margin-top: 94px;
   margin-bottom: 50px;
 }
-.filter_button {
+.filter-button {
   background-color: var(--color-background-squad);
   border: none;
   border-radius: 4px;
@@ -318,7 +318,7 @@ header {
   color: var(--color-text-main);
   padding: 6px 22px;
 }
-.filter_button:is(:hover, :focus) {
+.filter-button:is(:hover, :focus) {
   background: var(--color-hover);
   /* shadow-middle */
 
@@ -335,7 +335,7 @@ header {
   align-items: center;
   margin-bottom: 94px;
 }
-.project_description {
+.project-description {
   border-right: 1px solid var(--color-border-line);
   border-left: 1px solid var(--color-border-line);
   border-bottom: 1px solid var(--color-border-line);
@@ -344,7 +344,7 @@ header {
   gap: 4px;
   padding: 20px 24px;
 }
-.project_name {
+.project-name {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -356,7 +356,7 @@ header {
 
   color: var(--color-text-main);
 }
-.project_kind {
+.project-kind {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
